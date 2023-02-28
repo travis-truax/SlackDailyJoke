@@ -5,6 +5,7 @@ import pytz
 
 
 GO_COMICS_URL = "https://www.gocomics.com"
+XKCD_URL = "https://xkcd.com/info.0.json"
 
 def get_xkcd():
     xkcd_response = requests.get(url=XKCD_URL)
