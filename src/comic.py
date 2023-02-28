@@ -31,4 +31,4 @@ def get(comic_name):
     if comic_name is "xkcd":
         return get_xkcd()
     elif comic_name is "calvinandhobbes":
-        return get_go_comic(comic_name))
+        return get_go_comic(comic_name)
