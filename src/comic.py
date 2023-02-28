@@ -28,7 +28,7 @@ def get_go_comic(comic):
     )
 
 def get(comic_name):
-    if comic_name is "xkcd":
+    if comic_name == "xkcd":
         return get_xkcd()
-    elif comic_name is "calvinandhobbes":
+    elif comic_name == "calvinandhobbes":
         return get_go_comic(comic_name)
