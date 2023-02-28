@@ -7,7 +7,7 @@ logger = logging.getLogger()
 
 AWS_REGION = "us-west-2"
 SECRET_ID = "nike_slack_webhook_urls"
-SLACK_CHANNEL = "daily_smile"
+SLACK_CHANNEL = "test_space"
 
 
 def get_webhook_url(slack_channel):

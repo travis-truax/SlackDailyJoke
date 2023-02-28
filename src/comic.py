@@ -6,7 +6,7 @@ import pytz
 
 GO_COMICS_URL = "https://www.gocomics.com"
 
-def get_xkcd(data):
+def get_xkcd():
     xkcd_response = requests.get(url=XKCD_URL)
     data = xkcd_response.json()
     return f"Comic Number: {str(data['num'])}\nTitle: {data['title']}\nAlt Text: {data['alt']}\n{data['img']}"
