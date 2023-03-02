@@ -12,3 +12,5 @@ mv daily_smile.zip ..
 cd ..
 
 rm -rf payload
+
+aws lambda update-function-code --function-name daily_smile --zip-file fileb://daily_smile.zip && rm daily_smile.zip
